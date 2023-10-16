@@ -215,12 +215,12 @@ false && user
 true || user
 ```
 
-## 01 Exercice compter des occurences
+## 00 Exercice compter des occurences
 
 Soit la chaîne de caractères suivantes compter le nombre de i dans un premier, puis compter chacune des lettres
 
 ```js
-let m = "mississippi"
+let m = "mississippi";
 ```
 
 
@@ -469,6 +469,19 @@ for (const j = 0; j < 10; j = j + 1) {}
 const STUDENTS = ["Alan", "Bernard", "Jean"];
 ```
 
+
+## 04_bis Exercice compter
+
+Retitez les doublons dans le tableau suivant 
+
+```js
+const phrases = [
+ ["aaabbfffhjik", "hhhkkkiooo", "hhjuuk"],
+    ["rrrtttyyuuii", "rroooiiiuuu", "jjjhhhaa"],
+    ["aaabbgghhh", "iiikkkooomml", "hhhiijjjuu"],
+    ["hhhyyytttuu", "xxxnnnooii", "kkkjjjuuppp"],
+    ["qqqfffgghhh", "qqqkkklll", "ooohhhjjj"],
+]
 
 ## var définition obsolète ! <a class="anchor" id="chapter6"></a>
 
