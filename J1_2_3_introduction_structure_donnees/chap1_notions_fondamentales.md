@@ -472,7 +472,9 @@ const STUDENTS = ["Alan", "Bernard", "Jean"];
 
 ## 04_bis Exercice compter
 
-Retitez les doublons dans le tableau suivant 
+1. Retitez les doublons dans le tableau suivant 
+
+2. (facultative) Ordonnez la liste des phrases par ordre de longueur de chaîne de caractères.
 
 ```js
 const phrases = [
@@ -482,6 +484,8 @@ const phrases = [
     ["hhhyyytttuu", "xxxnnnooii", "kkkjjjuuppp"],
     ["qqqfffgghhh", "qqqkkklll", "ooohhhjjj"],
 ]
+
+```
 
 ## var définition obsolète ! <a class="anchor" id="chapter6"></a>
 
