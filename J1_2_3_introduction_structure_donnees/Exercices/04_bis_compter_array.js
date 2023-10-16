@@ -38,23 +38,29 @@ console.log(q);
 
 // 2
 
+// tableau d'une dimension
 let res = [];
 for (const line of phrases) {
     for (const e of line) res.push(e)
 }
 
+// réordonne dans un tableau d'une dimension
 res.sort((a, b) => a.length - b.length)
 
-console.log(res)
+console.log("------")
 
+// on remet les éléments ordonnées dans le tableau initial
 let [c, i, j] = [0, 0, 0];
 while (c < 15) {
     phrases[i][j] = res[c];
+    // console.log(j, i)
     c = c + 1;
-    i = i + 1;
-    if (i == 3) {
-        j = j + 1;
-        i = 0;
+    j = j + 1; // on avance sur la ligne
+
+    // on change de ligne arrivé à 3 
+    if (j == 3) {
+        i = i + 1; // changement de ligne
+        j = 0; // on réinitalise les colonnes
     }
 }
 
