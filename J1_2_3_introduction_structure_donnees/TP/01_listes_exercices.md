@@ -17,7 +17,7 @@ const phrase = '8790:bonjour le monde:8987:7777:Hello World:9007';
 D'autres structures de données existent en JS comme les WeakSet, WeakMap par exemple. Nous vous invitons, pour approfondir vos connaissances, à les découvrir sur la documentation devlopper.mozilla.org.
 
 
-## 02 Exercice Phones
+## 03 Exercice Phones
 
 1. Nettoyez les données priceHT, pour que celles-ci soient utilisables dans les prochains calculs.
 
@@ -33,7 +33,7 @@ const phones = [
 ];
 ```
 
-## 03 Exercice température 
+## 04 ( facultatif) Exercice température 
 
 1. Donnez toutes les températures qui sont supérieures à 0.
 
